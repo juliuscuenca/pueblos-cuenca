@@ -1,0 +1,23 @@
+@keyframes arribaNormal{
+    from{
+        top:-100%
+    }to{
+        top:0;
+    }   
+}
+@keyframes izquierdaNormal{
+    from{
+        left:-100%;
+    }to{
+        left:0;
+    }   
+}
+@keyframes opacidad{
+    from{
+        transform:rotate(30deg)
+        /*opacity:0;*/
+    }to{
+        transform:rotate(0deg)
+        /*opacity:1;*/
+    }   
+}
